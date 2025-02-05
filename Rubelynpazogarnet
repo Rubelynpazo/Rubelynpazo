@@ -1,0 +1,16 @@
+import turtle #this is a comment
+import colorsys
+t = turtle.Turtle()
+s = turtle.Screen().bgcolor('black') #change the color of background 
+t.speed(0) # set the speed 
+n = 70
+h = 0
+for i in range(360):# set the range
+    c = colorsys.hsv_to_rgb(h, 1, 0.8)
+    h+= 1/n
+    t.color(c)
+    t.left(1)
+    t.fd(1)
+    for j in range(2):
+        t.left(8)#change the distance of the circle
+        t.circle(100)#change the size of circle
