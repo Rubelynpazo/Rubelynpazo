@@ -1,6 +1,6 @@
-what is the title of programming
+What is the title of programming?
 Ans:colorful circle
-Description 
+Description?
 Ans:It's spinning slowly until it becomes colorful circle
-How to run code
+How to run code?
 Ans:Run python file
